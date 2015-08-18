@@ -1,7 +1,7 @@
 # Calculator
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a calculator created with the Ember CLI.  Future functionality may include reacting to key press events and better UI to reflect button layout similar to a real calculator.
 
 ## Prerequisites
 
