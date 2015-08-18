@@ -1,0 +1,9 @@
+{{calc-display expression=expression result=result}}
+{{#each numbers as |number|}}
+	{{calc-button value=number press="inputNumber"}}
+{{/each}}
+{{#each operators as |operator|}}
+	{{calc-button value=operator press="doSomething" }}
+{{/each}}
+{{calc-button value='C' press="clearInput"}}
+{{calc-button value='=' press="evaluateExpression"}}

@@ -1,0 +1,32 @@
+html, body{
+font: 12px Arial, sans-serif;
+color: #666;
+}
+.calculator{
+width: 400px;
+margin: 0 auto;
+padding: 10px;
+background-color: #66f;
+text-align: center;
+box-shadow: 4px 4px 4px #ccc;
+}
+.display{
+height: 70px;
+background-color: #fff;
+font-size: 3rem;
+color: #000;
+text-align: right;
+
+}
+.display .expression{
+	font-size: 50%;
+	height: 20px;
+}
+button{
+border: none;
+background-color: #909;
+color: #fff;
+width: 30%;
+padding: 10px 0;
+margin-top: 5px;
+}
